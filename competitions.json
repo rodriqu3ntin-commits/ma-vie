@@ -1,0 +1,621 @@
+{
+ "updated": "2026-11-17T21:00+00:00",
+ "sources": [
+  "CFJJB",
+  "Smoothcomp",
+  "France Judo"
+ ],
+ "errors": [],
+ "events": [
+  {
+   "title": "LUTA LIVRE SERIES PARIS",
+   "start": "2026-11-22",
+   "end": "2026-11-22",
+   "city": "Guyancourt (78)",
+   "venue": "",
+   "source": "Smoothcomp",
+   "url": "https://luta-livre-series.smoothcomp.com/fr/event/36081",
+   "tags": [
+    "NO GI"
+   ]
+  },
+  {
+   "title": "Cash Money Grappling 2",
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "city": "Annemasse",
+   "venue": "",
+   "source": "Smoothcomp",
+   "url": "https://smoothcomp.com/fr/event/35810",
+   "tags": [
+    "NO GI"
+   ]
+  },
+  {
+   "title": "Paris Fall International Open IBJJF Jiu-jitsu Championship",
+   "start": "2026-11-28",
+   "end": "2026-11-29",
+   "city": "Paris",
+   "venue": "Salle Charpy - Stade Charléty",
+   "source": "CFJJB",
+   "url": "https://ibjjf.com/events/paris-fall-international-open-ibjjf-jiu-jitsu-championship-2026",
+   "tags": [
+    "GI",
+    "NO GI"
+   ]
+  },
+  {
+   "title": "ADCC FRANCE - Paris Open 2026",
+   "start": "2026-11-29",
+   "end": "2026-11-29",
+   "city": "Paris",
+   "venue": "",
+   "source": "Smoothcomp",
+   "url": "https://smoothcomp.com/fr/event/35588",
+   "tags": [
+    "NO GI"
+   ]
+  },
+  {
+   "title": "AIGA",
+   "start": "2026-11-29",
+   "end": "2026-11-29",
+   "city": "Nantes",
+   "venue": "",
+   "source": "Smoothcomp",
+   "url": "https://smoothcomp.com/fr/event/35151",
+   "tags": [
+    "NO GI"
+   ]
+  },
+  {
+   "title": "Open de Nice GI / NO-GI / KIDS de jiu-jitsu Brésilien",
+   "start": "2026-12-05",
+   "end": "2026-12-05",
+   "city": "Nice",
+   "venue": "",
+   "source": "France Judo",
+   "url": "https://francejujitsu.smoothcomp.com/fr/event/35368",
+   "tags": [
+    "GI",
+    "NO GI",
+    "Kids"
+   ]
+  },
+  {
+   "title": "GNC TOUR 26/27 - TOURNOI DE FONTENAY S/BOIS",
+   "start": "2026-12-06",
+   "end": "2026-12-06",
+   "city": "Fontenay-sous-Bois",
+   "venue": "",
+   "source": "Smoothcomp",
+   "url": "https://smoothcomp.com/fr/event/35156",
+   "tags": [
+    "GI"
+   ]
+  },
+  {
+   "title": "Championnat de France \"Elite\" GI : Adultes & U18 + Open NO-GI",
+   "start": "2026-12-12",
+   "end": "2026-12-12",
+   "city": "Villebon-sur-Yvette",
+   "venue": "",
+   "source": "France Judo",
+   "url": "https://francejujitsu.smoothcomp.com/fr/event/35972",
+   "tags": [
+    "GI",
+    "NO GI"
+   ]
+  },
+  {
+   "title": "Open de Guilherand-Granges",
+   "start": "2026-12-12",
+   "end": "2026-12-13",
+   "city": "Guilherand-Granges",
+   "venue": "Salle Omnisports",
+   "source": "CFJJB",
+   "url": "https://cfjjb.com/competitions/info/c32b6717-1ef6-4ef6-913e-56c27189090e/adulte-gi",
+   "tags": [
+    "GI",
+    "NO GI",
+    "Kids"
+   ]
+  },
+  {
+   "title": "BIG-BEST IN GRAPPLING",
+   "start": "2026-12-13",
+   "end": "2026-12-13",
+   "city": "Bobigny",
+   "venue": "",
+   "source": "Smoothcomp",
+   "url": "https://francegrappling.smoothcomp.com/fr/event/34917",
+   "tags": [
+    "GI"
+   ]
+  },
+  {
+   "title": "Championnat de France \"Elite\" GI : U16 & U21 + Championnat de France Master GI",
+   "start": "2026-12-13",
+   "end": "2026-12-13",
+   "city": "Villebon-sur-Yvette",
+   "venue": "",
+   "source": "France Judo",
+   "url": "https://francejujitsu.smoothcomp.com/fr/event/36168",
+   "tags": [
+    "GI"
+   ]
+  },
+  {
+   "title": "ÉLITE KIDS",
+   "start": "2026-12-13",
+   "end": "2026-12-13",
+   "city": "Bobigny",
+   "venue": "",
+   "source": "Smoothcomp",
+   "url": "https://francegrappling.smoothcomp.com/fr/event/34912",
+   "tags": [
+    "GI",
+    "Kids"
+   ]
+  },
+  {
+   "title": "NAGA Paris Grappling Championship",
+   "start": "2026-12-19",
+   "end": "2026-12-19",
+   "city": "Paris",
+   "venue": "",
+   "source": "Smoothcomp",
+   "url": "https://naga.smoothcomp.com/fr/event/34145",
+   "tags": [
+    "GI"
+   ]
+  },
+  {
+   "title": "Open de Chilly Mazarin",
+   "start": "2026-12-19",
+   "end": "2026-12-20",
+   "city": "Chilly Mazarin",
+   "venue": "Complexe Sportif Jesse Owens",
+   "source": "CFJJB",
+   "url": "https://cfjjb.com/competitions/info/d289cad0-bc69-4e6f-90c3-8388e71c0b6b/adulte-gi",
+   "tags": [
+    "GI",
+    "NO GI",
+    "Kids"
+   ]
+  },
+  {
+   "title": "OPEN SOBREVIVER GI & NO-GI 2026",
+   "start": "2026-12-19",
+   "end": "2026-12-20",
+   "city": "Marseille",
+   "venue": "",
+   "source": "Smoothcomp",
+   "url": "https://smoothcomp.com/fr/event/36194",
+   "tags": [
+    "GI",
+    "NO GI"
+   ]
+  },
+  {
+   "title": "LUTA LIVRE SERIES TARBES",
+   "start": "2026-12-20",
+   "end": "2026-12-20",
+   "city": "Tarbes",
+   "venue": "",
+   "source": "Smoothcomp",
+   "url": "https://luta-livre-series.smoothcomp.com/fr/event/36082",
+   "tags": [
+    "NO GI"
+   ]
+  },
+  {
+   "title": "21 000€ CASHPRIZE | ILIASBJJ PARIS COMPETITION",
+   "start": "2026-12-27",
+   "end": "2026-12-27",
+   "city": "Bourg-la-Reine",
+   "venue": "",
+   "source": "Smoothcomp",
+   "url": "https://smoothcomp.com/fr/event/35553",
+   "tags": [
+    "GI"
+   ]
+  },
+  {
+   "title": "GNC NEXT GENERATION III - bjj gi & NOGI kids ado tournament",
+   "start": "2027-01-17",
+   "end": "2027-01-17",
+   "city": "Paris 13e",
+   "venue": "",
+   "source": "Smoothcomp",
+   "url": "https://smoothcomp.com/fr/event/36152",
+   "tags": [
+    "GI",
+    "NO GI",
+    "Kids"
+   ]
+  },
+  {
+   "title": "Championnat National NOVICES CFJJB / FSASPTT",
+   "start": "2027-01-30",
+   "end": "2027-01-31",
+   "city": "Marseille",
+   "venue": "Palais des sports",
+   "source": "CFJJB",
+   "url": "https://cfjjb.com/competitions/info/6839784d-f01f-4c7a-bcd2-151130493a68/adulte-gi",
+   "tags": [
+    "GI",
+    "NO GI"
+   ]
+  },
+  {
+   "title": "PARIS | OSS BJJ TOURNAMENT ROUND ROBIN | POINTS RULES",
+   "start": "2027-01-30",
+   "end": "2027-01-31",
+   "city": "Paris",
+   "venue": "",
+   "source": "Smoothcomp",
+   "url": "https://smoothcomp.com/fr/event/36377",
+   "tags": [
+    "GI"
+   ]
+  },
+  {
+   "title": "NOVA GP",
+   "start": "2027-02-06",
+   "end": "2027-02-06",
+   "city": "Paris",
+   "venue": "Stade Charlety",
+   "source": "CFJJB",
+   "url": "https://cfjjb.com/competitions/calendrier-competitions",
+   "tags": [
+    "GI"
+   ]
+  },
+  {
+   "title": "LUTA LIVRE SERIES BORDEAUX",
+   "start": "2027-02-07",
+   "end": "2027-02-07",
+   "city": "Bordeaux",
+   "venue": "",
+   "source": "Smoothcomp",
+   "url": "https://luta-livre-series.smoothcomp.com/fr/event/36083",
+   "tags": [
+    "NO GI"
+   ]
+  },
+  {
+   "title": "Open de Bourges",
+   "start": "2027-02-13",
+   "end": "2027-02-14",
+   "city": "Bourges",
+   "venue": "Palais des sports du Prado",
+   "source": "CFJJB",
+   "url": "https://cfjjb.com/competitions/info/78a9223e-4aef-49f5-b3a4-3cdfd5412ae5/adulte-gi",
+   "tags": [
+    "GI",
+    "NO GI",
+    "Kids"
+   ]
+  },
+  {
+   "title": "Open d'Illkirch",
+   "start": "2027-02-20",
+   "end": "2027-02-21",
+   "city": "Illkirch-Graffenstaden",
+   "venue": "Centre sportif du Lixenbuhl",
+   "source": "CFJJB",
+   "url": "https://cfjjb.com/competitions/calendrier-competitions",
+   "tags": [
+    "GI",
+    "NO GI",
+    "Kids"
+   ]
+  },
+  {
+   "title": "Championnat National Master",
+   "start": "2027-02-27",
+   "end": "2027-02-28",
+   "city": "Antibes",
+   "venue": "Azur Aréna",
+   "source": "CFJJB",
+   "url": "https://cfjjb.com/competitions/calendrier-competitions",
+   "tags": [
+    "GI",
+    "NO GI"
+   ]
+  },
+  {
+   "title": "Open de Saint Denis (Île de la Réunion)",
+   "start": "2027-02-27",
+   "end": "2027-02-27",
+   "city": "Saint-Denis",
+   "venue": "Stade Jean Ivoula",
+   "source": "CFJJB",
+   "url": "https://cfjjb.com/competitions/calendrier-competitions",
+   "tags": [
+    "GI",
+    "NO GI",
+    "Kids"
+   ]
+  },
+  {
+   "title": "Coupe de France",
+   "start": "2027-03-06",
+   "end": "2027-03-07",
+   "city": "Verquin",
+   "venue": "Aréna Béthune",
+   "source": "CFJJB",
+   "url": "https://cfjjb.com/competitions/calendrier-competitions",
+   "tags": [
+    "GI",
+    "NO GI",
+    "Kids"
+   ]
+  },
+  {
+   "title": "Festival du JJB",
+   "start": "2027-03-06",
+   "end": "2027-03-07",
+   "city": "Verquin",
+   "venue": "Aréna Béthune",
+   "source": "CFJJB",
+   "url": "https://cfjjb.com/competitions/calendrier-competitions",
+   "tags": [
+    "GI",
+    "NO GI",
+    "Kids"
+   ]
+  },
+  {
+   "title": "Open de Marseille",
+   "start": "2027-03-13",
+   "end": "2027-03-14",
+   "city": "Marseille",
+   "venue": "Palais des sports",
+   "source": "CFJJB",
+   "url": "https://cfjjb.com/competitions/calendrier-competitions",
+   "tags": [
+    "GI",
+    "NO GI",
+    "Kids"
+   ]
+  },
+  {
+   "title": "GNC TOUR 26/27 - TOURNOI DE PLOERMEL III",
+   "start": "2027-03-21",
+   "end": "2027-03-21",
+   "city": "Ploërmel",
+   "venue": "",
+   "source": "Smoothcomp",
+   "url": "https://smoothcomp.com/fr/event/36092",
+   "tags": [
+    "GI"
+   ]
+  },
+  {
+   "title": "Open de Nantes",
+   "start": "2027-03-27",
+   "end": "2027-03-28",
+   "city": "Nantes",
+   "venue": "Stade Pierre Quinon",
+   "source": "CFJJB",
+   "url": "https://cfjjb.com/competitions/calendrier-competitions",
+   "tags": [
+    "GI",
+    "NO GI",
+    "Kids"
+   ]
+  },
+  {
+   "title": "Championnat National Kids CFJJB / FSASPTT",
+   "start": "2027-04-10",
+   "end": "2027-04-11",
+   "city": "Paris",
+   "venue": "Hall Carpentier",
+   "source": "CFJJB",
+   "url": "https://cfjjb.com/competitions/calendrier-competitions",
+   "tags": [
+    "NO GI",
+    "Kids"
+   ]
+  },
+  {
+   "title": "GNC TOUR 26/27 - TOURNOI DE TOULOUSE",
+   "start": "2027-04-11",
+   "end": "2027-04-11",
+   "city": "Toulouse",
+   "venue": "",
+   "source": "Smoothcomp",
+   "url": "https://smoothcomp.com/fr/event/36079",
+   "tags": [
+    "GI"
+   ]
+  },
+  {
+   "title": "Open de Bordeaux",
+   "start": "2027-04-17",
+   "end": "2027-04-18",
+   "city": "Bordeaux",
+   "venue": "Salle des Sports Jean Dauguet",
+   "source": "CFJJB",
+   "url": "https://cfjjb.com/competitions/calendrier-competitions",
+   "tags": [
+    "GI",
+    "NO GI",
+    "Kids"
+   ]
+  },
+  {
+   "title": "Open d'Orleans",
+   "start": "2027-04-24",
+   "end": "2027-04-25",
+   "city": "Orléans",
+   "venue": "Palais des sports d'Orleans",
+   "source": "CFJJB",
+   "url": "https://cfjjb.com/competitions/calendrier-competitions",
+   "tags": [
+    "GI",
+    "NO GI",
+    "Kids"
+   ]
+  },
+  {
+   "title": "Championnat de la Réunion",
+   "start": "2027-04-25",
+   "end": "2027-04-25",
+   "city": "Saint-Denis",
+   "venue": "Stade Jean Ivoula",
+   "source": "CFJJB",
+   "url": "https://cfjjb.com/competitions/calendrier-competitions",
+   "tags": [
+    "GI",
+    "NO GI",
+    "Kids"
+   ]
+  },
+  {
+   "title": "Open de France",
+   "start": "2027-05-01",
+   "end": "2027-05-02",
+   "city": "Marseille",
+   "venue": "Palais des sports",
+   "source": "CFJJB",
+   "url": "https://cfjjb.com/competitions/calendrier-competitions",
+   "tags": [
+    "GI",
+    "NO GI",
+    "Kids"
+   ]
+  },
+  {
+   "title": "Paris Spring IBJJF",
+   "start": "2027-05-08",
+   "end": "2027-05-09",
+   "city": "Paris",
+   "venue": "Stade Coubertin",
+   "source": "CFJJB",
+   "url": "https://cfjjb.com/competitions/calendrier-competitions",
+   "tags": [
+    "GI"
+   ]
+  },
+  {
+   "title": "Open de Nice",
+   "start": "2027-05-15",
+   "end": "2027-05-16",
+   "city": "Nice",
+   "venue": "Halle du parc des Sports Charles Ehrmann",
+   "source": "CFJJB",
+   "url": "https://cfjjb.com/competitions/calendrier-competitions",
+   "tags": [
+    "GI",
+    "NO GI",
+    "Kids"
+   ]
+  },
+  {
+   "title": "Open d'Annemasse",
+   "start": "2027-05-22",
+   "end": "2027-05-23",
+   "city": "Annemasse",
+   "venue": "Maison des Sports",
+   "source": "CFJJB",
+   "url": "https://cfjjb.com/competitions/calendrier-competitions",
+   "tags": [
+    "GI",
+    "NO GI",
+    "Kids"
+   ]
+  },
+  {
+   "title": "Open de Rouen",
+   "start": "2027-05-29",
+   "end": "2027-05-30",
+   "city": "Rouen",
+   "venue": "",
+   "source": "CFJJB",
+   "url": "https://cfjjb.com/competitions/calendrier-competitions",
+   "tags": [
+    "GI",
+    "NO GI",
+    "Kids"
+   ]
+  },
+  {
+   "title": "Grappling Industries BORDEAUX",
+   "start": "2027-06-05",
+   "end": "2027-06-05",
+   "city": "Bordeaux",
+   "venue": "",
+   "source": "Smoothcomp",
+   "url": "https://grapplingindustries.smoothcomp.com/fr/event/35181",
+   "tags": [
+    "GI",
+    "NO GI"
+   ]
+  },
+  {
+   "title": "Championnat National CFJJB / FSASPTT",
+   "start": "2027-06-12",
+   "end": "2027-06-13",
+   "city": "Paris",
+   "venue": "Hall Carpentier",
+   "source": "CFJJB",
+   "url": "https://cfjjb.com/competitions/calendrier-competitions",
+   "tags": [
+    "GI"
+   ]
+  },
+  {
+   "title": "BIG-BEST IN GRAPPLING",
+   "start": "2027-06-13",
+   "end": "2027-06-13",
+   "city": "Bobigny",
+   "venue": "",
+   "source": "Smoothcomp",
+   "url": "https://francegrappling.smoothcomp.com/fr/event/35273",
+   "tags": [
+    "GI"
+   ]
+  },
+  {
+   "title": "ÉLITE KIDS",
+   "start": "2027-06-13",
+   "end": "2027-06-13",
+   "city": "Bobigny",
+   "venue": "",
+   "source": "Smoothcomp",
+   "url": "https://francegrappling.smoothcomp.com/fr/event/35430",
+   "tags": [
+    "GI",
+    "Kids"
+   ]
+  },
+  {
+   "title": "BIG-BEST IN GRAPPLING",
+   "start": "2027-07-03",
+   "end": "2027-07-03",
+   "city": "Bobigny",
+   "venue": "",
+   "source": "Smoothcomp",
+   "url": "https://francegrappling.smoothcomp.com/fr/event/35272",
+   "tags": [
+    "GI"
+   ]
+  },
+  {
+   "title": "ÉLITE KIDS",
+   "start": "2027-07-03",
+   "end": "2027-07-03",
+   "city": "Bobigny",
+   "venue": "",
+   "source": "Smoothcomp",
+   "url": "https://francegrappling.smoothcomp.com/fr/event/35274",
+   "tags": [
+    "GI",
+    "Kids"
+   ]
+  }
+ ]
+}

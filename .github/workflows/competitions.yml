@@ -1,13 +1,10 @@
 name: Mise à jour des compétitions
 
+# CFJJB et Smoothcomp bloquent les serveurs de GitHub (403) : la mise à jour
+# quotidienne passe par le navigateur de l'ordinateur de Quentin. Ce workflow
+# reste disponible à la main, au cas où les sites lèveraient ce blocage.
 on:
-  schedule:
-    - cron: "17 5 * * *"   # tous les jours vers 6h-7h (heure de Paris)
   workflow_dispatch: {}
-  push:
-    paths:
-      - scripts/update_competitions.py
-      - .github/workflows/competitions.yml
 
 permissions:
   contents: write
