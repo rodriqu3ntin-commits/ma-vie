@@ -27,8 +27,8 @@ MONTHS = {m: i + 1 for i, m in enumerate(
      "septembre", "octobre", "novembre", "décembre"])}
 MONTHS.update({"fevrier": 2, "aout": 8, "decembre": 12})
 # Catégories Smoothcomp : 1 = jiu-jitsu brésilien, 7 = grappling / no-gi, 4 = ADCC
-SMOOTH_GROUPS = {"1", "7", "4", "24"}  # + 24 = luta livre
-SKIP_TITLE = re.compile(r"s[ée]minaire|seminar|referee|arbitr|stage technique|open mat", re.I)
+SMOOTH_GROUPS = {"1", "7", "4"}
+SKIP_TITLE = re.compile(r"luta\s*livre|s[ée]minaire|seminar|referee|arbitr|stage technique|open mat", re.I)
 
 
 def get(url):
