@@ -1,5 +1,8 @@
-// Ma vie — lecture des vidéos Google Drive en streaming.
-// Les requêtes vers ./gdrive/<id> sont relayées vers l'API Drive avec le jeton de connexion.
+// Ma vie — lecture des vidéos Google Drive en streaming (v2).
+// Les requêtes vers ./gdrive/<id>?s=<taille>&m=<type> sont relayées vers l'API Drive
+// avec le jeton de connexion, par morceaux (requêtes Range), pour que les vidéos se lisent
+// sur ordinateur comme sur iPhone/Android.
+const CHUNK = 4 * 1024 * 1024;
 let token = null;
 
 self.addEventListener('install', () => self.skipWaiting());
@@ -9,7 +12,7 @@ self.addEventListener('message', (e) => {
 });
 
 async function askToken() {
-  const clients = await self.clients.matchAll({ type: 'window' });
+  const clients = await self.clients.matchAll({ type: 'window', includeUncontrolled: true });
   for (const c of clients) {
     const tok = await new Promise((resolve) => {
       const ch = new MessageChannel();
@@ -22,30 +25,48 @@ async function askToken() {
   return null;
 }
 
-async function relay(request, id) {
+function driveFetch(id, range) {
+  const headers = { Authorization: 'Bearer ' + token };
+  if (range) headers.Range = range;
+  return fetch('https://www.googleapis.com/drive/v3/files/' + encodeURIComponent(id) + '?alt=media&acknowledgeAbuse=true', { headers });
+}
+
+async function relay(request, id, size, mime) {
   if (!token) token = await askToken();
   if (!token) return new Response('Connexion Google requise', { status: 401 });
-  const headers = { Authorization: 'Bearer ' + token };
-  const range = request.headers.get('Range');
-  if (range) headers.Range = range;
-  let r = await fetch('https://www.googleapis.com/drive/v3/files/' + encodeURIComponent(id) + '?alt=media', { headers });
-  if (r.status === 401) {
+
+  // Plage demandée par le lecteur vidéo.
+  let start = 0, end = size ? size - 1 : null;
+  const m = /bytes=(\d*)-(\d*)/.exec(request.headers.get('Range') || '');
+  const partial = !!m && !!size;
+  if (partial) {
+    if (m[1] === '' && m[2] !== '') { start = Math.max(0, size - Number(m[2])); end = size - 1; }
+    else { start = Number(m[1] || 0); end = m[2] !== '' ? Math.min(Number(m[2]), size - 1) : Math.min(start + CHUNK - 1, size - 1); }
+    if (start >= size) return new Response(null, { status: 416, headers: { 'Content-Range': 'bytes */' + size } });
+  }
+
+  let r = await driveFetch(id, partial ? 'bytes=' + start + '-' + end : null);
+  if (r.status === 401 || r.status === 403) {
     token = await askToken();
     if (!token) return new Response('Connexion Google expirée', { status: 401 });
-    headers.Authorization = 'Bearer ' + token;
-    r = await fetch('https://www.googleapis.com/drive/v3/files/' + encodeURIComponent(id) + '?alt=media', { headers });
+    r = await driveFetch(id, partial ? 'bytes=' + start + '-' + end : null);
   }
-  const h = new Headers();
-  for (const k of ['content-type', 'content-length', 'content-range', 'accept-ranges', 'etag', 'last-modified']) {
-    const v = r.headers.get(k);
-    if (v) h.set(k, v);
+  if (!r.ok) return new Response('Erreur Drive ' + r.status, { status: r.status });
+
+  const h = new Headers({ 'Content-Type': mime || r.headers.get('content-type') || 'video/mp4', 'Accept-Ranges': 'bytes', 'Cache-Control': 'no-store' });
+  if (partial) {
+    h.set('Content-Range', 'bytes ' + start + '-' + end + '/' + size);
+    h.set('Content-Length', String(end - start + 1));
+    return new Response(r.body, { status: 206, headers: h });
   }
-  if (!h.get('accept-ranges')) h.set('accept-ranges', 'bytes');
-  if (!h.get('content-type') || h.get('content-type') === 'application/octet-stream') h.set('content-type', 'video/mp4');
-  return new Response(r.body, { status: r.status, statusText: r.statusText, headers: h });
+  if (size) h.set('Content-Length', String(size));
+  return new Response(r.body, { status: 200, headers: h });
 }
 
 self.addEventListener('fetch', (e) => {
-  const m = new URL(e.request.url).pathname.match(/\/gdrive\/([\w-]+)$/);
-  if (m) e.respondWith(relay(e.request, m[1]));
+  const u = new URL(e.request.url);
+  const m = u.pathname.match(/\/gdrive\/([\w-]+)$/);
+  if (!m) return;
+  const size = Number(u.searchParams.get('s')) || 0;
+  e.respondWith(relay(e.request, m[1], size, u.searchParams.get('m') || ''));
 });
