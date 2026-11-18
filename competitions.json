@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T21:00+00:00",
+ "updated": "2026-11-18T05:45:10+00:00",
  "sources": [
   "CFJJB",
   "Smoothcomp",
@@ -40,9 +40,7 @@
    "venue": "",
    "source": "Smoothcomp",
    "url": "https://smoothcomp.com/fr/event/35588",
-   "tags": [
-    "NO GI"
-   ]
+   "tags": []
   },
   {
    "title": "AIGA",
@@ -130,7 +128,8 @@
    "source": "France Judo",
    "url": "https://francejujitsu.smoothcomp.com/fr/event/36168",
    "tags": [
-    "GI"
+    "GI",
+    "Kids"
    ]
   },
   {
@@ -159,6 +158,19 @@
    ]
   },
   {
+   "title": "OPEN SOBREVIVER GI & NO-GI 2026",
+   "start": "2026-12-19",
+   "end": "2026-12-20",
+   "city": "MARSEILLE",
+   "venue": "",
+   "source": "Smoothcomp",
+   "url": "https://smoothcomp.com/fr/event/36194",
+   "tags": [
+    "GI",
+    "NO GI"
+   ]
+  },
+  {
    "title": "Open de Chilly Mazarin",
    "start": "2026-12-19",
    "end": "2026-12-20",
@@ -170,19 +182,6 @@
     "GI",
     "NO GI",
     "Kids"
-   ]
-  },
-  {
-   "title": "OPEN SOBREVIVER GI & NO-GI 2026",
-   "start": "2026-12-19",
-   "end": "2026-12-20",
-   "city": "Marseille",
-   "venue": "",
-   "source": "Smoothcomp",
-   "url": "https://smoothcomp.com/fr/event/36194",
-   "tags": [
-    "GI",
-    "NO GI"
    ]
   },
   {
@@ -201,7 +200,7 @@
    "title": "GNC NEXT GENERATION III - bjj gi & NOGI kids ado tournament",
    "start": "2027-01-17",
    "end": "2027-01-17",
-   "city": "Paris 13e",
+   "city": "Paris 75013",
    "venue": "",
    "source": "Smoothcomp",
    "url": "https://smoothcomp.com/fr/event/36152",
@@ -349,7 +348,7 @@
    "title": "GNC TOUR 26/27 - TOURNOI DE PLOERMEL III",
    "start": "2027-03-21",
    "end": "2027-03-21",
-   "city": "Ploërmel",
+   "city": "Ploermel",
    "venue": "",
    "source": "Smoothcomp",
    "url": "https://smoothcomp.com/fr/event/36092",
@@ -496,7 +495,7 @@
    "title": "Open de Rouen",
    "start": "2027-05-29",
    "end": "2027-05-30",
-   "city": "Rouen",
+   "city": "",
    "venue": "",
    "source": "CFJJB",
    "url": "https://cfjjb.com/competitions/calendrier-competitions",
@@ -515,8 +514,7 @@
    "source": "Smoothcomp",
    "url": "https://grapplingindustries.smoothcomp.com/fr/event/35181",
    "tags": [
-    "GI",
-    "NO GI"
+    "GI"
    ]
   },
   {
