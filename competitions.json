@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T07:51:19+00:00",
+ "updated": "2026-11-26T01:20:39+00:00",
  "sources": [
   "CFJJB",
   "Smoothcomp",
@@ -231,6 +231,18 @@
    "venue": "",
    "source": "Smoothcomp",
    "url": "https://smoothcomp.com/fr/event/36377",
+   "tags": [
+    "GI"
+   ]
+  },
+  {
+   "title": "Stage national - Grappling Wrestling FSGT",
+   "start": "2027-01-31",
+   "end": "2027-01-31",
+   "city": "REIMS",
+   "venue": "",
+   "source": "Smoothcomp",
+   "url": "https://smoothcomp.com/fr/event/16765",
    "tags": [
     "GI"
    ]
