@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T11:10:19+00:00",
+ "updated": "2026-11-28T09:02:41+00:00",
  "sources": [
   "CFJJB",
   "Smoothcomp",
@@ -33,7 +33,7 @@
    ]
   },
   {
-   "title": "ADCC FRANCE - Paris Open 2026",
+   "title": "ADCC FRANCE Open 2026",
    "start": "2026-11-29",
    "end": "2026-11-29",
    "city": "Paris",
@@ -224,6 +224,18 @@
    ]
   },
   {
+   "title": "OPEN NORMANDIE GRAPPLING",
+   "start": "2027-01-30",
+   "end": "2027-01-31",
+   "city": "Houlgate",
+   "venue": "",
+   "source": "Smoothcomp",
+   "url": "https://smoothcomp.com/fr/event/36865",
+   "tags": [
+    "GI"
+   ]
+  },
+  {
    "title": "PARIS | OSS BJJ TOURNAMENT ROUND ROBIN | POINTS RULES",
    "start": "2027-01-30",
    "end": "2027-01-31",
@@ -255,6 +267,18 @@
    "venue": "Stade Charlety",
    "source": "CFJJB",
    "url": "https://cfjjb.com/competitions/calendrier-competitions",
+   "tags": [
+    "GI"
+   ]
+  },
+  {
+   "title": "Daymat 6 JJB",
+   "start": "2027-02-07",
+   "end": "2027-02-07",
+   "city": "ploërmel",
+   "venue": "",
+   "source": "Smoothcomp",
+   "url": "https://smoothcomp.com/fr/event/33941",
    "tags": [
     "GI"
    ]
